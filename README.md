@@ -1,14 +1,14 @@
-## Python Package for MongoDB CRUD
+# Python Package for MongoDB CRUD
 
-# For use:
+## For use:
     - Install package with PIP;
     - Import from mongocrud Mongocrud;
     - Configure database settings (location, collection, port...);
     - Call object CRUD operations;
 
-# Example:
+## Example:
 
-    - For INSERT operation in database:
+    * For INSERT operation in database:
 
     ```python
     from mongocrud import MongoCRUD
@@ -25,7 +25,7 @@
     dbclients.insert("clients", {"_id": ObjectId(b'000000000001'), "name":"Anderson 6", "dtupdate": datetime.now()})
     ```
 
-    - For SELECT operation on database (using orderby and direction for sort information):
+    * For SELECT operation on database (using orderby and direction for sort information):
 
     ```python
     from mongocrud import MongoCRUD
@@ -37,7 +37,7 @@
     for client in clients_ordered: print(client)
     ```
 
-    - For SELECT BY _id (select if using ObjectId on _id):
+    * For SELECT BY _id (select if using ObjectId on _id):
 
     ```python
     from mongocrud import MongoCRUD
@@ -53,7 +53,7 @@
     print(clients)
     ```
 
-    - For DELETE query in database:
+    * For DELETE query in database:
 
     ```python
     from mongocrud import MongoCRUD
@@ -65,7 +65,7 @@
     print("QTD items deleted => ", items)
     ```
 
-    - For DELETE BY _id:
+    * For DELETE BY _id:
 
     ```python
     from mongocrud import MongoCRUD
@@ -83,7 +83,7 @@
     print("QTD items deleted => ", items)
     ```
 
-    - for UPDATE row:
+    * for UPDATE row:
 
     ```python
     from mongocrud import MongoCRUD
