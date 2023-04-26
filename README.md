@@ -11,7 +11,7 @@
 * For INSERT operation in database:
 
 ```python
-from mongocrud import MongoCRUD
+from mongocrud import MongoCRUD, ObjectId
 from datetime import datetime
 
 dbclients = MongoCRUD("mongodb://localhost","mongoteste1")
@@ -68,7 +68,7 @@ print("QTD items deleted => ", items)
 * For DELETE BY _id:
 
 ```python
-from mongocrud import MongoCRUD
+from mongocrud import MongoCRUD, ObjectId
 from datetime import datetime
 
 dbclients = MongoCRUD("mongodb://localhost","mongoteste1")
