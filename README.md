@@ -1,10 +1,10 @@
 # Python Package for MongoDB CRUD
 
 ## For use:
-    - Install package with PIP;
-    - Import from mongocrud Mongocrud;
-    - Configure database settings (location, collection, port...);
-    - Call object CRUD operations;
+- Install package with PIP;
+- Import from mongocrud Mongocrud;
+- Configure database settings (location, collection, port...);
+- Call object CRUD operations;
 
 ## Example:
 
